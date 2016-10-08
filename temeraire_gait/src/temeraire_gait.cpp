@@ -1545,7 +1545,7 @@ int main(int argc, char **argv)
 	ros::init(argc, argv, "Temeraire_Gait");
 	TemeraireGait temeraire_gait;
 	// Refresh rate
-	ros::Rate loop_rate(4);                                // 35 with bluetooth
+	ros::Rate loop_rate(6);                                // 35 with bluetooth
 
 
 	while (ros::ok()) {
